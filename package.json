@@ -2,11 +2,11 @@
   "name": "webtemplate",
   "version": "1.0.0",
   "description": "this is a basic template for creating various web projects",
-    "main": "index.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-     "dev": "webpack -d --watch",
-    "build" : "webpack -p"
+    "dev": "webpack -d --watch",
+    "build": "webpack -p"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,9 @@
   },
   "homepage": "https://github.com/RMAssociates/WebShell#readme",
   "dependencies": {
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
     "webpack": "^1.14.0"
   }
 }
